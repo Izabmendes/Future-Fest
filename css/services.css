@@ -1,0 +1,25 @@
+
+.section-solucoes{
+    padding: 50px 0px;
+}
+
+.section-solucoes h1{
+text-align: center;
+}
+
+.cards-solucoes{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.card-solucoes{
+    padding: 10px;
+    text-align: center;
+}
+
+.card-solucoes img{
+    width: 50px;
+}
