@@ -1,0 +1,36 @@
+
+*{
+    padding:0px ;
+    margin: 0px;
+}
+
+.grid-fotos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: -250px;
+    text-align: center;
+    gap: 50px;
+
+}
+.criadores-eco{
+    font-weight: 3000px;
+}
+.about-criadores{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+    
+}
+
+.about-criadores img{
+    height: 400px;
+}
+
+.about-folha img{
+    top: 20px;
+}
+
