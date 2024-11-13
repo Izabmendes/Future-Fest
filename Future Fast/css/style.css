@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+
+
+.section-home {
+    font-weight: bold;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('/assets/imagemInicial.png');
+}
+
+ 
+.home-h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+ 
+.home-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+ 
+.input-saibaMais {
+    background-color: rgb(43, 174, 122);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+ .section-cards{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10%;
+    padding: 10px;
+    width: 90%;
+    margin: -10vh auto;
+ }
+
+ .card{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+ }
+
+ .img-card{
+    width: 50px;
+    margin: -70px auto 20px;
+    background-color: black;
+    box-shadow: 1px 0px 1px white;
+    border-radius: 50%;
+    padding: 10px;
+ }
+
+ .img-card img{
+    width: 100%;
+}
+
+.section-solucoes{
+    margin: 150px 0px;
+}
+
+.section-solucoes h1{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.cards-solucoes{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.card-solucoes{
+    padding: 10px;
+    text-align: center;
+}
+
+.card-solucoes img{
+    width: 50px;
+}
+
+  
+  /* Botão flutuante no canto inferior direito */
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .floating-button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Modal do chatbot (invisível por padrão) */
+  .chatbot-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+  }
+
+  iframe{
+    width: 100%;
+    height: 90vh;
+  }
+  
+  /* Conteúdo do modal */
+  .chatbot-content {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Botão de fechar */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #555;
+  }
+  
+
+
+
+footer {
+    background-color: rgb(143, 151, 121);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.footer-socialMedia {
+    display: flex;
+    align-items: center;
+}
+ 
+.footer-socialMedia div {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+ 
+.footer-contactUs div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+ 
+.footer-contactUs div img {
+    margin-right: 10px;
+}
